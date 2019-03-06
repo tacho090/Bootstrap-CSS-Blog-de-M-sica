@@ -10,12 +10,33 @@ body{
 }
 
 #span-icons{
-  float:right;
-  vertical-align:bottom;
+  margin-top: auto;
+  margin-bottom:20px;
 }
 
 i{
   width:80px;
+}
+
+.letter-color{
+  color:white;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.publication{
+  padding-left:30px;
+  padding-top:30px;
+}
+
+.image{
+  padding-left: 30px;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
 }
 
 .solid-black{
@@ -30,6 +51,6 @@ i{
 }
 
 #id_comment{
-  width:500px;
+  width:100%;
 
 }
