@@ -1,0 +1,35 @@
+body{
+  width:70%;
+  margin:auto;
+  background-color:#004745;
+}
+
+#logo{
+  width:60%;
+  float:left;
+}
+
+#span-icons{
+  float:right;
+  vertical-align:bottom;
+}
+
+i{
+  width:80px;
+}
+
+.solid-black{
+  border:2px solid black;
+  min-height:200px;
+}
+
+.main{
+  display:flex;
+  text-align: left;
+  width:60%;
+}
+
+#id_comment{
+  width:500px;
+
+}
