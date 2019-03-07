@@ -17,12 +17,12 @@
     <div class="container-fluid">
       <div class="row">
         <!--Columna para logo-->
-        <div class ="col-6 text-center" >
+        <div class ="col-xs-12 col-sm-12 col-md-12 col-lg-6 text-center" >
           <img src="img/logo_edited.png"/ id="logo">
         </div>
 
         <!--Columna para iconos-->
-        <div class ="col-6 text-right"  id="span-icons">
+        <div class ="col-sm-12 col-md-12 col-lg-12 text-center"  id="span-icons">
           <span >
             <a href="#" style="color:white;"><i class="fab fa-facebook-f fa-2x" ></i></a>
             <a href="#" style="color:white;"><i class="fab fa-instagram fa-2x"></i></a>
@@ -35,10 +35,10 @@
     </div>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a href="#" class="navbar-brand" style="color:white;">Blog de Música</a>
-      <button class="navbar-toggler">
-        <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
+      <button class="navbar-toggler" style="background-color:white !important;">
+        <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu" ></span>
       </button>
         <div class="collapse navbar-collapse" id="navbarMenu">
 
@@ -61,7 +61,7 @@
 
           <!--Fila 1/descripcion-->
           <div class="row">
-            <div class="col-7 text-justify publication">
+            <div class="col-sm-col-7 text-justify publication">
             <h2>Tributo a The Beatles</h2>
                   <p>Tras la buena aceptación que recibió la agrupación The Brothers Beatleband en mayo, cuando presentó su tributo a The Beatles, los argentinos regresarán a nuestro país para ofrecer un espectáculo más.
 
@@ -122,11 +122,15 @@
 
         <!--Columna de 3 espacios-->
         <div class="col-md-3" style="height:500px;">
-          <div class="row publication" style="margin-bottom:15px;">
-            <label for="input"></label>
-            <input class="rounded" type="text" id="input" placeholder="Buscar...">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </div>
+          <form role="form">
+            <div class="row publication" style="margin-bottom:15px;">
+              <div class="form-group col-12">
+                <label for="input">Buscar</label>
+                <input class="rounded" type="text" id="input" placeholder="Buscar...">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </form>
           <!--unordered list-->
           <div class="row">
             <div class="container-fluid">
