@@ -1,5 +1,5 @@
 body{
-  width:70%;
+  width:80%;
   margin:auto;
   background-color:#004745;
 }
@@ -34,7 +34,7 @@ a:hover {
 .image{
   padding-left: 30px;
   width:100%;
-  position:absolute;
+  
   top:0;
   left:0;
 }
@@ -78,6 +78,14 @@ a:hover {
     display:block;
     margin:0 auto;
   }
+  .contenedor{
+    width:80%;
+    float:left;
+  }
+  .contenedor2{
+    width:20%;
+    float:right;
+  }
 }
 
 /*Extra large devices(large desktops 1200 px and up)*/
@@ -85,5 +93,12 @@ a:hover {
   #logo{
     width:100%;
   }
-
+  .contenedor{
+    width:80%;
+    float:left;
+  }
+  .contenedor2{
+    width:20%;
+    float:right;
+  }
 }
