@@ -14,6 +14,7 @@
     <title>Blog de Música</title>
   </head>
   <body>
+    <!--Primer contenedor-->
     <div class="container-fluid">
       <div class="row">
         <!--Columna para logo-->
@@ -22,8 +23,8 @@
         </div>
 
         <!--Columna para iconos-->
-        <div class ="col-sm-12 col-md-12 col-lg-12 text-center"  id="span-icons">
-          <span >
+        <div class ="col-sm-12 col-md-12 col-lg-6 text-center"  id="span-icons">
+          <span>
             <a href="#" style="color:white;"><i class="fab fa-facebook-f fa-2x" ></i></a>
             <a href="#" style="color:white;"><i class="fab fa-instagram fa-2x"></i></a>
             <a href="#" style="color:white;"><i class="fab fa-youtube fa-2x"></i></a>
@@ -115,61 +116,64 @@
           </div>
       </div>
     </div>
+    </div>
 
-    <div class="container-fluid">
+
+    <!--Segundo contenedor-->
+    <div class="container-fluid contenedor2">
         <!--Columna de 3 espacios-->
-        <div class="col-md-3" style="height:500px;">
-          <form role="form">
-            <div class="row publication" style="margin-bottom:15px;">
-              <div class="form-group col-12">
-                <label for="input">Buscar</label>
-                <input class="rounded" type="text" id="input" placeholder="Buscar...">
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </div>
-            </div>
-          </form>
-          <!--unordered list-->
-          <div class="row">
-            <div class="container-fluid">
-              <div class="col-12 ">
-                <ul class="list-group">
-                  <li class="list-group-item"><a href="#">Gary Numan</a></li>
-                  <li class="list-group-item"><a href="#">Ultravox</a></li>
-                  <li class="list-group-item"><a href="#">Romeo Void</a></li>
-                  <li class="list-group-item"><a href="#">Chaz Jankel</a></li>
-                  <li class="list-group-item"><a href="#">Trans-X</a></li>
-                  <li class="list-group-item"><a href="#">New Order</a></li>
-                  <li class="list-group-item"><a href="#">Pet Shop Boys</a></li>
-                  <li class="list-group-item"><a href="#">The Cure</a></li>
-                  <li class="list-group-item"><a href="#">Dead or Alive</a></li>
-                  <li class="list-group-item"><a href="#">Thompson Twins</a></li>
-                  <li class="list-group-item"><a href="#">Colourbox</a></li>
-                  <li class="list-group-item"><a href="#">Devo</a></li>
-                  <li class="list-group-item"><a href="#">Heaven 17</a></li>
-                  <li class="list-group-item"><a href="#">The Twins</a></li>
-                  <li class="list-group-item"><a href="#">The B52`s</a></li>
-                  <li class="list-group-item"><a href="#">Slaughter</a></li>
-                  <li class="list-group-item"><a href="#">Simple Minds</a></li>
-                  <li class="list-group-item"><a href="#">Drake</a></li>
-                  <li class="list-group-item"><a href="#">Desiigner</a></li>
-                  <li class="list-group-item"><a href="#">Cherokee</a></li>
-                  <li class="list-group-item"><a href="#">Interpol</a></li>
-                  <li class="list-group-item"><a href="#">Twenty One Pilots</a></li>
-                  <li class="list-group-item"><a href="#">Silverchair</a></li>
-                  <li class="list-group-item"><a href="#">The Killers</a></li>
-                  <li class="list-group-item"><a href="#">Prince</a></li>
 
-                </ul>
-              </div>
+        <form role="form">
+          <div class="row" style="margin-bottom:15px;">
+            <div class=" col-10 form-group">
+              <label for="input"></label>
+              <input class="rounded form-control" type="text" id="input" placeholder="Buscar en esta página...">
+            </div>
+            <div class="col-1 center-icon">
+              <i style="color:white;" class="fa fa-search fa-2x"></i>
             </div>
           </div>
+        </form>
+          <!--unordered list-->
+        <div class="row">
+          <div class="col-12 ">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#">Gary Numan</a></li>
+                <li class="list-group-item"><a href="#">Ultravox</a></li>
+                <li class="list-group-item"><a href="#">Romeo Void</a></li>
+                <li class="list-group-item"><a href="#">Chaz Jankel</a></li>
+                <li class="list-group-item"><a href="#">Trans-X</a></li>
+                <li class="list-group-item"><a href="#">New Order</a></li>
+                <li class="list-group-item"><a href="#">Pet Shop Boys</a></li>
+                <li class="list-group-item"><a href="#">The Cure</a></li>
+                <li class="list-group-item"><a href="#">Dead or Alive</a></li>
+                <li class="list-group-item"><a href="#">Thompson Twins</a></li>
+                <li class="list-group-item"><a href="#">Colourbox</a></li>
+                <li class="list-group-item"><a href="#">Devo</a></li>
+                <li class="list-group-item"><a href="#">Heaven 17</a></li>
+                <li class="list-group-item"><a href="#">The Twins</a></li>
+                <li class="list-group-item"><a href="#">The B52`s</a></li>
+                <li class="list-group-item"><a href="#">Slaughter</a></li>
+                <li class="list-group-item"><a href="#">Simple Minds</a></li>
+                <li class="list-group-item"><a href="#">Drake</a></li>
+                <li class="list-group-item"><a href="#">Desiigner</a></li>
+                <li class="list-group-item"><a href="#">Cherokee</a></li>
+                <li class="list-group-item"><a href="#">Interpol</a></li>
+                <li class="list-group-item"><a href="#">Twenty One Pilots</a></li>
+                <li class="list-group-item"><a href="#">Silverchair</a></li>
+                <li class="list-group-item"><a href="#">The Killers</a></li>
+                <li class="list-group-item"><a href="#">Prince</a></li>
+            </ul>
+          </div>
+
         </div>
 
-      </div>
+
     </div>
 
 
-    </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

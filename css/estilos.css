@@ -1,5 +1,5 @@
 body{
-  width:80%;
+  width:70%;
   margin:auto;
   background-color:#004745;
 }
@@ -15,7 +15,11 @@ body{
 }
 
 i{
-  width:80px;
+  width:60px;
+}
+
+#i-search{
+  width:10px;
 }
 
 .letter-color{
@@ -34,7 +38,7 @@ a:hover {
 .image{
   padding-left: 30px;
   width:100%;
-  
+
   top:0;
   left:0;
 }
@@ -52,6 +56,10 @@ a:hover {
 
 #id_comment{
   width:100%;
+}
+
+.center-icon{
+  padding-top:25px;
 }
 
 /*Media queries*/
